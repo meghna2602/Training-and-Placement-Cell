@@ -1,0 +1,55 @@
+body{
+    position: relative;
+}
+h1{
+  font-family:Footlight MT Light;
+  color:white;
+  margin: 0 0 100px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 46px;
+}
+li{
+padding:15px 5px;
+font-size:18px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #00BFFF;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    opacity: 0.8;
+    width: 100%;
+    height: 655px;
+}
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
